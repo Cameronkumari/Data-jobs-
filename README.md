@@ -36,7 +36,7 @@ Cleaning process
 4. Added currency symbols for column G
 5. Conditional formatting for cells containing 'EN' highlighting how many jobs are suitable for candidates with low/no experience. (EN - Entry level/Junior positions)
 
-### The Analysis 
+### The Analysis + Insights 
 
 1) Ideal job for an entry-level/graduate candidate, what salary can they expect? Can they expect to find a remote job with an EN experience level? What locations are the best for EN data candidates?
 
@@ -47,12 +47,12 @@ _Using Sqliteviz_
 We can see that:
 - The highest paying jobs where all in the USA, with entry level jobs starting at $90,000.00. I had assumed they would all be data analyst roles, however there is also a Data Scienctist and Data Science Consultant role. I placed 'L' - large company as another criteria as it is more realistic for larger companies to hire entry level candidates and pay a high salary. 
 
-3) To personalise this and look for a data job that would be ideal for me, I executed this criteria:
+To personalise this and look for a data job that would be ideal for me, I executed this criteria:
 
 <img width="1419" alt="image" src="https://github.com/user-attachments/assets/bd7b268e-026a-475c-9269-acd32e0f17a5">  
 _Using Sqliteviz, ideal top 5 jobs based on my criteria_
 
-5) How likely is it that a candidate with no formal experience will be able to find a remote job?
+2) How likely is it that a candidate with no formal experience will be able to find a remote job?
 
 It seems as though the remote ratio (RR) is high just by looking at the data set. The likelyhood of finding a remote job is 78.95% as 480 jobs are still available out of the 608 job records, once we filter out companies with a 0 RR. However, this does not take into consideration the experience level. Once we filter out experience levels above entry level, the percentage drops significantly. 
 480 then drops to 74, out of 608 job records, 12.17%. 
@@ -62,7 +62,12 @@ We can also look at the sum of the remote ratios and see what types of data role
 <img width="800" alt="Screenshot 2024-09-26 at 12 50 44" src="https://github.com/user-attachments/assets/6f868d99-fc67-44fc-aa0a-9183760fe776">
 _Data Roles and their remote ratios, using the sum of the remote ratios for each role
 _
-**Insight 1:** It is significantly harder for a entry level/graduate candidate to land a remote job within Data. This is due to remote jobs usually being reserved for Data engineers and Machine Learning engineers, jobs requiring years of experience. 
+It is significantly harder for a entry level/graduate candidate to land a remote job within Data. This is due to remote jobs usually being reserved for Data engineers and Machine Learning engineers, jobs requiring years of experience. 
+
+### Conclusion
+In summary, my analysis of the data job market for entry-level candidates reveals both promising opportunities as well as significant challenges. Whilst there are high-paying entry roles, such as Data Scientist and Data Science Consulatant, these positions are often competitive and mostly available in larger companies. 
+
+It then becomes more difficult if the candidate prefers remote work, the data indicates that while 79% of available jobs may be remote, only about 12% of these will consider candidates with no formal experience. 
 
 ### References 
 Luke Barousse, _SQL Project Data Job Analysis_, 2024 
