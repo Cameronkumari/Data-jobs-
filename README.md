@@ -1,6 +1,6 @@
 # Data Job Market Analysis 
 # Introduction 
-A focus on data jobs that are ideal for entry-level candidates, particularly recent graduates. Through research, I will explore the accesibility of the data job market for individuals starting their careers, identifying opportunities and challenges faced by newcomers in the data industry. Additionally, I examine the flexibility of working options available, such as the ability to choose working hours and locations.
+A focus on data jobs that are ideal for entry-level candidates, particularly recent graduates. Through research, I will explore the accesibility of the data job market for individuals starting their careers, identifying opportunities and challenges faced by newcomers in the data industry. Additionally, I examine the flexibility of working options available, such as the ability to choose working hours.
 
 ### Table of contents 
 
@@ -13,6 +13,8 @@ A focus on data jobs that are ideal for entry-level candidates, particularly rec
 
 
 ### Project Overview 
+As a graduate looking to enter the competitive data job market, I found myself researching the different job roles available and the different working types available. I was inspired by Luke Barousse's analysis of the data job market and the key skills in demand. He concluded that Python was the best skill for beginners to learn. This led me to research how accessible the job market actually is for candidates with no/low experience.
+
 
 ### Tools Used 
 - Sqliteviz
@@ -36,7 +38,21 @@ Cleaning process
 
 ### The Analysis 
 
-1) How likely is it that a candidate with no formal experience will be able to find a remote job?
+1) Ideal job for an entry-level/graduate candidate, what salary can they expect? Can they expect to find a remote job with an EN experience level? What locations are the best for EN data candidates?
+
+<img width="869" alt="image" src="https://github.com/user-attachments/assets/d060ba37-2b66-4e0e-90fa-6023b0be6557">
+
+_Using Sqliteviz_
+
+We can see that:
+- The highest paying jobs where all in the USA, with entry level jobs starting at $90,000.00. I had assumed they would all be data analyst roles, however there is also a Data Scienctist and Data Science Consultant role. I placed 'L' - large company as another criteria as it is more realistic for larger companies to hire entry level candidates and pay a high salary. 
+
+3) To personalise this and look for a data job that would be ideal for me, I executed this criteria:
+
+<img width="1419" alt="image" src="https://github.com/user-attachments/assets/bd7b268e-026a-475c-9269-acd32e0f17a5">  
+_Using Sqliteviz, ideal top 5 jobs based on my criteria_
+
+5) How likely is it that a candidate with no formal experience will be able to find a remote job?
 
 It seems as though the remote ratio (RR) is high just by looking at the data set. The likelyhood of finding a remote job is 78.95% as 480 jobs are still available out of the 608 job records, once we filter out companies with a 0 RR. However, this does not take into consideration the experience level. Once we filter out experience levels above entry level, the percentage drops significantly. 
 480 then drops to 74, out of 608 job records, 12.17%. 
@@ -47,8 +63,6 @@ We can also look at the sum of the remote ratios and see what types of data role
 _Data Roles and their remote ratios, using the sum of the remote ratios for each role
 _
 **Insight 1:** It is significantly harder for a entry level/graduate candidate to land a remote job within Data. This is due to remote jobs usually being reserved for Data engineers and Machine Learning engineers, jobs requiring years of experience. 
-
-
 
 ### References 
 Luke Barousse, _SQL Project Data Job Analysis_, 2024 
