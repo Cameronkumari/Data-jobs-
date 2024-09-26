@@ -45,11 +45,13 @@ Cleaning process
 _Using Sqliteviz_
 
 We can see that:
-- The highest paying jobs where all in the USA, with entry level jobs starting at $90,000.00. I had assumed they would all be data analyst roles, however there is also a Data Scienctist and Data Science Consultant role. I placed 'L' - large company as another criteria as it is more realistic for larger companies to hire entry level candidates and pay a high salary. 
+- The highest paying jobs were all in the USA, with entry level jobs starting at $90,000.00. I had assumed they would all be data analyst roles, however there is also a Data Scienctist and Data Science Consultant role. I placed 'L' - large company as another criteria as it is more realistic for larger companies to hire entry level candidates and pay a high salary.
+- 
 
 To personalise this and look for a data job that would be ideal for me, I executed this criteria:
 
 <img width="1419" alt="image" src="https://github.com/user-attachments/assets/bd7b268e-026a-475c-9269-acd32e0f17a5">  
+
 _Using Sqliteviz, ideal top 5 jobs based on my criteria_
 
 2) How likely is it that a candidate with no formal experience will be able to find a remote job?
@@ -60,9 +62,17 @@ It seems as though the remote ratio (RR) is high just by looking at the data set
 We can also look at the sum of the remote ratios and see what types of data roles are likely to be remote:
 
 <img width="800" alt="Screenshot 2024-09-26 at 12 50 44" src="https://github.com/user-attachments/assets/6f868d99-fc67-44fc-aa0a-9183760fe776">
-_Data Roles and their remote ratios, using the sum of the remote ratios for each role
-_
+
+_Data Roles and their remote ratios, using the sum of the remote ratios for each role_
+
+
 It is significantly harder for a entry level/graduate candidate to land a remote job within Data. This is due to remote jobs usually being reserved for Data engineers and Machine Learning engineers, jobs requiring years of experience. 
+
+
+<img width="564" alt="image" src="https://github.com/user-attachments/assets/f9c9adc7-389e-4d72-8dec-98189d9c6b70">
+
+
+_A pivot table showing senior roles are more likely to be remote_
 
 ### Conclusion
 In summary, my analysis of the data job market for entry-level candidates reveals both promising opportunities as well as significant challenges. Whilst there are high-paying entry roles, such as Data Scientist and Data Science Consulatant, these positions are often competitive and mostly available in larger companies. 
@@ -76,3 +86,5 @@ Luke Barousse, _SQL Project Data Job Analysis_, 2024
 
 Ruchi, Bhatia, _Data Science Job Salaries_, 2022
 - https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries
+
+Thank you for reading!
