@@ -15,8 +15,15 @@ A focus on data jobs that are ideal for entry-level candidates, particularly rec
 ### Project Overview 
 
 ### Tools Used 
+- Sqliteviz
+- Excel
+- Kaggle
+- RAWGraphs/ RawGraphs 2.0 
 
 ### Data Sources 
+1. - https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries
+RAW Dataset: https://1drv.ms/x/c/103f3750a8aa74c2/EWtfqQS1PBZIosK9jr32M3cBs8NTHj8cKcs_tD1FbVtJlw
+
 
 ### The Analysis 
 
