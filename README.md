@@ -36,6 +36,14 @@ Cleaning process
 
 ### The Analysis 
 
+How likely is it that a candidate with no formal experience will be able to find a remote job?
+
+It seems as though the remote ratio (RR) is high just by looking at the data set. The likelyhood of finding a remote job is 78.95% as 480 jobs are still available out of the 608 job records, once we filter out companies with a 0 RR. However, this does not take into consideration the experience level. Once we filter out experience levels above entry level, the percentage drops significantly. 
+
+480  then drops to 74, out of 608 job records, 12.17%. 
+
+**Insight 1:** It is significantly harder for a entry level/graduate candidate to land a remote job within Data. 
+
 ### References 
 Luke Barousse, _SQL Project Data Job Analysis_, 2024 
 - https://github.com/lukebarousse/SQL_Project_Data_Job_Analysis/blob/main/README.md
