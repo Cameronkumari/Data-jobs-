@@ -21,9 +21,18 @@ A focus on data jobs that are ideal for entry-level candidates, particularly rec
 - RAWGraphs/ RawGraphs 2.0 
 
 ### Data Sources 
-1. - https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries
+
 RAW Dataset: https://1drv.ms/x/c/103f3750a8aa74c2/EWtfqQS1PBZIosK9jr32M3cBs8NTHj8cKcs_tD1FbVtJlw
 
+CLEAN Dataset:
+https://1drv.ms/x/c/103f3750a8aa74c2/Eab1dnlkpr9Br0NNTfgSfCsBFxG3dlPITKEQmq3u9lfmPw
+
+Cleaning process 
+1. Checked for blanks/errors
+2. Removed Column A - rows are numbered by default
+3. Made employment types more readable e.g. FL - Freelance, CT - contract
+4. Added currency symbols for column G
+5. Conditional formatting for cells containing 'EN' highlighting how many jobs are suitable for candidates with low/no experience. (EN - Entry level/Junior positions)
 
 ### The Analysis 
 
