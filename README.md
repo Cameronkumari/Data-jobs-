@@ -46,7 +46,7 @@ _Using Sqliteviz_
 
 We can see that:
 - The highest paying jobs were all in the USA, with entry level jobs starting at $90,000.00. I had assumed they would all be data analyst roles, however there is also a Data Scienctist and Data Science Consultant role. I placed 'L' - large company as another criteria as it is more realistic for larger companies to hire entry level candidates and pay a high salary.
-- 
+  
 
 To personalise this and look for a data job that would be ideal for me, I executed this criteria:
 
@@ -72,7 +72,7 @@ It is significantly harder for a entry level/graduate candidate to land a remote
 <img width="564" alt="image" src="https://github.com/user-attachments/assets/f9c9adc7-389e-4d72-8dec-98189d9c6b70">
 
 
-_A pivot table showing senior roles are more likely to be remote_
+_A pivot table showing remote jobs are usually reserved for more senior roles_
 
 ### Conclusion
 In summary, my analysis of the data job market for entry-level candidates reveals both promising opportunities as well as significant challenges. Whilst there are high-paying entry roles, such as Data Scientist and Data Science Consulatant, these positions are often competitive and mostly available in larger companies. 
